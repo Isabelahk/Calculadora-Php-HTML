@@ -7,22 +7,22 @@
 	switch ($opcao) {
 		case 'soma':
 			$resultado = $num1+$num2;
-			echo 'A soma é: '.$resultado;
+			echo 'O resultado é: '.$resultado;
 		break;
 
 		case 'sub':
 			$resultado = $num1-$num2;
-			echo 'A subtração é: '.$resultado;
+			echo 'O resultado é: '.$resultado;
 		break;
 
 		case 'mult':
-			$resultado = $num1+$num2;
-			echo 'A Multiplicação é: '.$resultado;
+			$resultado = $num1*$num2;
+			echo 'O resultado é: '.$resultado;
 		break;
 
 		case 'divisao':
-			$resultado = $num1+$num2;
-			echo 'A divisão é: '.$resultado;
+			$resultado = $num1/$num2;
+			echo 'O resultado é: '.$resultado;
 		break;
 	}
 ?>
